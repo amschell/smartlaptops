@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive side menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+
+<span class="open-slide">
+    <a href="#" onclick="openSlideMenu()">
+
+<img src="./pics/menu.png" alt="photo here">
+
+    </a>
+</span>
+<ul class="navbar-nav">
+    <li>
+        
+
+    </li>
+
+    <li>
+        <a href="https://wa.me/+254723363833">
+            <img src="./pics/whatsapp.png" alt="">
+        </a>
+   </li>
+
+   <li>
+    <a href="tel:+254723363833"><img src="./pics/telephone-call.png" alt=""></a>
+</li>
+
+<li >
+    <div  class="cart-count" id="cart-count"></div>
+    <a onclick="showOrder()"  href="order.html">
+        <div class="mybag">
+        <img  src="./pics/shopping-cart.png" alt="">
+        </div>
+
+    
+    </a>
+   
+    </li>
+</ul>
+    <!-- navbar ends here-->
+
+    </div>
+
+
+
+
+
+
+
+    <!-- side menu 
+    also n/b &times; is to draw x 
+&copy; is for copyright   -->
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+
+        <a onclick="closeSideMenu()" href="#hps" >
+            HP laptops
+        </a>
+        <a  onclick="closeSideMenu()" href="#Lenovo yoga 12" >Lenovo </a>
+        <a  onclick="closeSideMenu()" href="#dls" >Dell</a>
+        
+        <a onclick="showOrderSide()" href="order.html" >
+            <img src="./pics/shopping-cart.png" alt="">
+            <p class="cart-count"></p>
+            your order
+        </a>
+    
+
+    </div>
+    <!--side navbar ends here-->
+
+
+    <div id="main" class="main">
+        
+        <a class="newsletter"   style="color: red;" href="subscribe.html"> Subscribe to Newsletter  
+        </a>
+        
+        <div class="display">
+            <a onclick="showDetails()" href="#">
+                
+            <img src="./pics/hp (1).png" alt="">
+                 
+                 
+            </a>
+            
+            <a onclick="showDesktops()" href="#">
+                <img src="./pics/dell.png" alt="">
+                
+                
+            </a>
+            <a  onclick="showKeyBoards()" href="#">
+                <img src="./pics/lenovo.png" alt="">
+                
+            </a>
+
+        </div>
+        <!-- display area ends here together with featured products -->
+
+
+<!--   hp laptops -->
+<!--
+<h3 id="message">oops! no items in your order</h3>
+<div id="order-table" class="order-table">
+   
+</div> -->
+
+<div id="hp" class="hp">
+
+    <div id="hps" class="hp-title">
+        <h1>Hp laptops available</h1>
+    </div>
+    <!--first hp-->
+    
+<div class="hp-content-section">
+    <div  id="hp-6470 core i5" class="hp-images">
+        
+    <img src="./pics/hp-6470 core i5.jpg" alt="6470">
+    
+
+<h3 class="hp-details">
+   ksh <span>21000</span>
+   <br>
+    Hp 6470
+    <br>
+    core i5
+    <br>
+    4gb Ram
+    <br>
+    320gb hdd
+    <br>
+    3rd generation
+    <br>
+</h3>
+
+
+    </div>
+    <!--second hp-->
+    <div id="hp-2570 core i5" class="hp-images">
+        
+            <img src="./pics/hp-2570 core i5.jpg" alt="2570">
+        
+        <h3 class="hp-details">
+
+            ksh <span>19000</span>
+            <br>
+            Hp 2570
+            <br>
+            core i5
+            <br>
+            4gb Ram
+            <br>
+            320gb hdd
+            <br>
+
+        </h3>
+    </div>
+
+    <!-- 3rd hp-->
+    <div id="hp-2570 core i7" class="hp-images">
+        
+            <img src="./pics/hp-2570 core i7.jpg" alt="">
+        
+        <h3 class="hp-details">
+            ksh <span>21000</span>
+            <br>
+            Hp 2570
+            <br>
+            core i7
+            <br>
+            4gb Ram
+            <br>
+            320 gb hdd
+            <br>
+        </h3>
+    </div>
+    <!-- fourth laptop-->
+    <div id="hp-1030 intel core i7" class="hp-images">
+        
+            <img src="./pics/hp-1030 intel core i7.jpg" alt="">
+        
+        <h3 class="hp-details">
+            ksh <span>70000</span>
+            <br>
+            Hp 1030
+            <br>
+            intel core i7
+            <br>
+            7th generation,
+            16gb Ram,
+        
+            512 gb ssd
+            <br>
+        </h3>
+    </div>
+    <!--fifth laptop-->
+    <div id="hp-11x8360" class="hp-images">
+        
+            <img src="./pics/hp-11x8360.jpg" alt="">
+        
+        <h3 class="hp-details">
+            ksh <span>20500</span>
+            <br>
+            Hp probook
+            <br>
+             11 x 360 pentium,
+            
+            4gb Ram,
+            128gb ssd 
+        </h3>
+ </div>
+ <div id="hp-1030 g2" class="hp-images">
+     
+         <img src="./pics/hp-1030 g2.jpg" alt="">
+     
+     <h3 class="hp-details">
+        ksh <span>55000</span>
+        <br>
+         Hp 1030 g2
+         <br>
+         7th generation,
+         core i5,
+         
+         8gb Ram,
+         
+         256gb ssd 
+        
+     </h3>
+ </div>
+</div> <!-- content section 1 ends-->
+
+
+
+    
+
+</div> <!--hp ends-->
+
+
+
+        
+<!--main1 ends here i created a container below main because the items were too many-->
+        
+        </div>
+        <div class="hp-content-section2">
+
+            <div id="hp-1040 g1" class="hp-images">
+           
+               <img src="./pics/hp-1040 g1.jpg" alt="">
+        
+           <h3 class="hp-details">
+            ksh <span>38000</span>
+            <br>
+               Hp 1040 g1
+               <br>
+               core i5
+               <br>
+               8gb Ram
+               <br>
+               256gb ssd
+               <br>
+               4th generation
+               <br>
+           </h3>
+            </div>
+            <div id="hp-zbook 17" class="hp-images">
+                
+                    <img src="./pics/hp-zbook 17.jpg" alt="">
+                
+                <h3 class="hp-details">
+                    ksh <span>62000</span>
+                    <br>
+                    Hp zbook 17 g3
+                    <br>
+                    6th generation
+                    <br>
+                    core i7
+                    <br>
+                    8gb Ram
+                    <br>
+                    256gb ssd
+                    <br>
+
+                    <span>
+                        with 2gb Nvidia Geforce graphics
+                    </span>
+                </h3>
+            </div>
+            <div id="hp-650 g1 (15.6')" class="hp-images">
+                
+                    <img src="./pics/hp-650 g1 (15.6').jpg" alt="">
+            
+                <h3 class="hp-details">
+                    ksh <span>28000</span>
+                    <br>
+                    Hp 650 g1
+                    <span>15.6"</span>
+                    <br>
+
+                    core i5
+                    <br>
+                    4gb Ram
+                    <br>
+                    500 gb hdd
+                    <br>
+                </h3>
+            </div>
+        </div><!--content section ends here-->
+        <div class="hp-content-section3">
+
+            <div id="hp-650 g1-probook" class="hp-images">
+                
+                    <img src="./pics/hp-650 g1-probook.jpg" alt="">
+                
+                <h3 class="hp-details">
+                    ksh <span>32000</span>
+                    <br>
+                    Hp probook 650 g1
+                    <br>
+
+                    <span>
+                        15.6"
+                    </span>
+                    core i7
+                    <br>
+                    4gb Ram
+                    <br>
+                    500 gb hdd
+                    <br>
+
+                </h3>
+           </div>
+           <div id="hp-250 g5" class="hp-images">
+               
+                   <img src="./pics/hp-250 g5.jpg" alt="">
+               
+               <h3 class="hp-details">
+                ksh <span>38000</span>
+                <br>
+                   Hp 250 g5 
+                   <br>
+                   6th generation
+                   <br>
+                   core i5
+                   <br>
+                   4gb Ram
+                   <br>
+                   500 gb hdd
+                   <br>
+               </h3>
+             </div>
+             <div id="hp-820 g4" class="hp-images">
+                 
+                     <img src="./pics/hp-820 g4.jpg" alt="">
+                 
+                 <h3 class="hp-details">
+                    ksh <span>36000</span>
+                    <br>
+                     HP 820 g4
+                     <br>
+                     7th generation
+                     <br>
+                     core i7
+                     <br>
+                     4gb Ram
+                     <br>
+                     500 gb hdd
+                     <br> 
+                 </h3>
+             </div>
+        </div><!--content section ends-->
+             <div class="hp-content-section3">
+             <div id="hp-probook 450" class="hp-images">
+                 
+                     <img src="./pics/hp-probook 450.jpg" alt="">
+                 
+                 <h3 class="hp-details">
+                    ksh <span>28000</span>
+                    <br>
+                     Hp probook 450
+                     <br>
+                     <span>
+                         15.6"
+                     </span>
+                     <br>
+                     core i5
+                     <br>
+                     4gb Ram
+                     <br>
+                     500 gb hdd
+                <br>
+                 </h3>
+             </div>
+<div id="hp-elitebook 840 g1" class="hp-images">
+    
+        <img src="./pics/hp-elitebook 840 g1.jpg" alt="">
+    
+    <h3 class="hp-details">
+        ksh <span>28500</span>
+        <br>
+        Hp Elitebook 840g1
+        <br>
+        core i5
+        <br>
+        4gb Ram
+        <br>
+        500 gb hdd
+        <br>
+    </h3>
+</div>
+<div id="hp-probook 640g1" class="hp-images">
+    
+        <img src="./pics/hp-probook 640g1.jpg" alt="">
+    
+    <h3 class="hp-details">
+        ksh <span>26000</span>
+        <br>
+        Hp probook
+        <br>
+        640 g1
+    <br>
+    core i5
+    <br>
+    4gb Ram
+    <br>
+    500 gb hdd
+    </h3>
+</div>
+</div>
+<div class="hp-content-section3">
+<div id="hp-probook 440" class="hp-images">
+    
+        <img src="./pics/hp-probook 440.jpg" alt="">
+    
+    <h3 class="hp-details">
+        ksh <span>27000</span>
+        <br>
+        Hp probook 440
+        <br>
+        core i5
+        <br>
+        4gb Ram
+        <br>
+        500 gb hdd
+    </h3>
+</div>
+        <div id="hp-elitex2" class="hp-images">
+            
+                <img src="./pics/hp-elitex2.jpg" alt="">
+            
+            <h3 class="hp-details">
+                ksh <span>49000</span>
+                <br>
+                Hp elite x2
+                <br>
+                core i5
+                <br>
+                7th generation
+                <br>
+                8gb Ram
+                <br>
+                256gb ssd
+                <br>
+                <span>touchscreen</span>
+            </h3>
+        </div>   
+           
+           <!-- content section ends here-->
+        </div>
+
+
+        <!-- the container for all dell laptops start here, uses the same name as for all hps to avoid styling again separately-->
+
+
+<div id="dell" class="hp">
+    <div  class="hp-title">
+        <h1 id="dls" >Dell Laptops Available</h1>
+    </div>
+    <!-- title for dell stands in the above container-->
+
+    <div class="hp-content-section">
+        <div  id="Dell Latitude 3340" class="hp-images">
+            <img src="./pics/Dell Latitude 3340.jpg" alt="">
+            <h3 class="hp-details">
+
+                ksh <span>20000</span>
+                <br>
+                Dell Latitude 3340
+                <br>core i3
+                <br>
+                4gb Ram, 500GB hdd
+            </h3>
+        </div>
+        <!-- first dell ends in the above container-->
+
+<div id="Dell latitude 7270" class="hp-images">
+    <img src="./pics/Dell latitude 7270.jpg" alt="">
+    <h3 class="hp-details">
+        ksh <span>35000</span>
+        <br>
+        Dell Latitude 7270
+        <br>
+        6th generation
+        <br>
+        core i7,
+8gb Ram,
+256gb ssd 
+<br>
+    </h3>
+</div>
+<!-- second dell ends here-->
+<div id="Dell latitude 7440" class="hp-images">
+    <img src="./pics/Dell latitude 7440.jpg" alt="">
+    <h3 class="hp-details">
+        ksh <span>26500</span>
+        <br>
+        Dell latitude 7440
+        <br>
+        core i5
+        <br>
+        4gb Ram
+        <br>
+        500 gb hdd
+    </h3>
+</div>
+<!-- 3rd dell ends here-->
+<div  id="Dell latitude 7240 " class="hp-images">
+    <img src="./pics/Dell latitude 7240.jpg" alt="">
+    <h3 class="hp-details">
+        ksh <span>27000</span>
+        <br>
+        Dell latitude 7240 
+        <br>
+        core i7
+        <br>
+        4gb Ram, 128gb ssd
+    
+    </h3>
+</div>
+<!-- 4th ends here-->
+<div id="dell 7280 core i5" class="hp-images">
+    <img src="./pics/dell 7280 core i5.jpg" alt="">
+    <h3 class="hp-details">
+        ksh <span>32000</span>
+        <br>
+        Dell  7280
+        <br>
+        core i5
+        <br>
+        6th generation
+        <br>
+        8gb Ram, 256gb ssd
+        <br>
+    </h3>
+</div>
+<!-- fifth ends here-->
+<div  id="dell 6320 core i7" class="hp-images">
+    <img src="./pics/dell 6230 core i7.jpg" alt="">
+    <h3 class="hp-details">
+        ksh <span>21000</span>
+        <br>
+        Dell 6320
+        <br>
+        core i7
+        <br>
+        4gb RAM, 320gb hdd
+    </h3>
+</div>
+<!--6th ends here-->
+
+<div id="dell latitude 7350" class="hp-images">
+    <img src="./pics/dell latitude 7350.jpg" alt="">
+    <h3 class="hp-details">
+        ksh <span>31000</span>
+        <br>
+        Dell latitude 7350
+        <span>detachable core m5</span>
+        <br>
+        8gb RAM, 256gb ssd
+    </h3>
+</div>
+<!-- 7th ends here-->
+<div id="dell latitude 6320 " class="hp-images">
+<img src="./pics/dell latitude 6320.jpg" alt="">
+<h3 class="hp-details">
+    ksh <span>17000</span>
+    <br>
+    Dell latitude 6320
+    <br>
+    core i5
+    <br>
+    4gb ram, 320gb hdd
+</h3>
+</div>
+<!-- 8th ends here-->
+<div id="dell latitude 7440 core i7" class="hp-images">
+<img src="./pics/dell latitude 7440 core i7.jpg" alt="">
+<h3 class="hp-details">
+    ksh <span>33000</span>
+    <br>
+    Dell latitude 7440,
+    
+    core i7
+    <span>touch screen</span>
+    <br>
+    4gb ram, 500gb hdd
+</h3>
+</div>
+<!--9th ends here-->
+<div id="dell latitude 7250" class="hp-images">
+    <img src="./pics/dell latitude 7250.jpg" alt="">
+    <h3 class="hp-details">
+        ksh <span>31000</span>
+        <br>
+        Dell latitude 7250, corei7
+        <br>
+        8gb RAM, 256gb ssd
+    </h3>
+</div>
+<!--10th ends here-->
+
+<div id="dell latitude 7280" class="hp-images">
+    <img src="./pics/dell latitude 7280.jpg" alt="">
+    <h3 class="hp-details">
+        ksh <span>37000</span>
+        <br>
+        Dell latitude 7280
+        <br>
+        7th generation, core i7
+        <br>
+        8gb RAM, 256GB ssd
+    </h3>
+</div>
+<!--11 ends here-->
+<div id="dell inspiron" class="hp-images">
+    <img src="./pics/dell inspiron.jpg" alt="">
+    <h3 class="hp-details">
+        ksh <span>32000</span>
+        <br>
+        Dell inspiron
+        <span>15.6"</span>
+        8th generation
+        <br>
+        core i5, 8gb ram, 500gb hdd
+    </h3>
+</div>
+<!--12th ends here-->
+<div id="dell 7250 core i7" class="hp-images">
+    <img src="./pics/dell 7250 core i7.jpg" alt="">
+    <h3 class="hp-details">
+        ksh <span>28000</span>
+        <br>
+        Dell 7250, core i7
+        <br>
+        5th generation
+        <br>
+        4gb Ram, 128gb ssd
+        <br>
+    </h3>
+</div>
+<!-- 13 ends here-->
+<div id="dell 5300 core i5 " class="hp-images">
+<img src="./pics/dell 5300 core i5.jpg" alt="">
+<h3 class="hp-details">
+    ksh <span>42000</span>
+    <br>
+    Dell 5300, core i5
+    <br>
+    8th generation
+    <br>
+    8gb Ram, 256gb ssd
+</h3>
+</div>
+<!-- 14th laptop ends here-->
+<div id="dell 5400 core i5" class="hp-images">
+    <img src="./pics/dell 5400 core i5.jpg" alt="">
+    <h3 class="hp-details">
+        ksh <span>47000</span>
+        <br>
+        Dell 5400 core i5
+        <br>
+        8th generation
+        <br>
+        8gb ram 256gb ssd
+    </h3>
+</div>
+<!-- 15th ends here-->
+
+<div id="dell 5400 core i7" class="hp-images">
+    <img src="./pics/dell 5400 core i7.jpg" alt="">
+    <h3 class="hp-details">
+        ksh <span>49000</span>
+        <br>
+        Dell 5400 core i7
+        <br>
+        8th generation
+        <br>
+        8gb ram 256gb ssd
+    </h3>
+</div>
+<!-- 16th ends here-->
+
+
+<div id="dell 5285 2in1" class="hp-images">
+    <img src="./pics/dell 5285 2in1.jpg" alt="">
+    <h3 class="hp-details">
+        ksh <span>55000</span>
+        <br>
+        Dell 5285 2in1
+        <br>
+        7th generation <span>touchscreen</span>
+        <br>
+        16gb ram, 256gb ssd
+    </h3>
+</div>
+<!--17th ends here-->
+
+<div id="dell 5290 2in1" class="hp-images">
+    <img src="./pics/dell 5290 2in1.jpg" alt="">
+    <h3 class="hp-details">
+        ksh <span>50000</span>
+        <br>
+        Dell 5290 2in1
+        <br>
+        8th generation, core i5
+        <br>
+        16gb ram, 256gb ssd
+    </h3>
+</div>
+<!--18th ends here-->
+
+<div id="dell inspiron 13" class="hp-images">
+    <img src="./pics/dell inspiron 13.jpg" alt="">
+    <h3 class="hp-details">
+        ksh <span>48000</span>
+        <br>
+        Dell inspiron 13
+        <br>
+        5378 x 360
+        <br>
+        7th generation, core i5
+        <br>
+        8gb ram, 256gb ssd
+    </h3>
+</div>
+<!--19th ends here-->
+
+<div id="dell latitude 5290 2in1" class="hp-images">
+    <img src="./pics/dell 5290 2in1.jpg" alt="">
+    <h3 class="hp-details">
+        ksh <span>59000</span>
+        <br>
+        Dell latitude 5290, 2in1
+        <br>
+        8th generation, corei7
+        <br>
+        16gb ram, 256gb ssd
+    </h3>
+</div>
+<!--17th ends here-->
+
+
+
+
+
+    </div><!--content section for dell ends here-->
+
+    <div class="hp-title">
+        <h1 >Lenovo laptops available</h1>
+    </div>
+    <!-- title for lenovo ends-->
+    <div class="hp-content-section">
+
+<div id="lenovo yoga 12 core i5" class="hp-images"><!-- first lenovo-->
+<img src="./pics/lenovo yoga 12 core i5.jpg" alt="">
+<h3 class="hp-details">
+    ksh <span>30000</span>
+    <br>
+    Lenovo yoga 12, corei5
+    <br>
+    8gb Ram
+    <br>
+    256gb ssd <span>touchscreen</span>
+</h3>
+</div>
+<!-- first lenovo ends here-->
+
+
+<div id="lenovo thinkpad x240" class="hp-images"><!--  second lenovo-->
+    <img src="./pics/lenovo thinkpad x240.jpg" alt="">
+    <h3 class="hp-details">
+        ksh <span>23000</span>
+        <br>
+        Lenovo thinkpad  X240 corei7
+        <br>
+        4gb Ram
+        <br>
+        500gb hdd, 5th generation
+    </h3>
+    </div>
+    <!-- second lenovo ends here-->
+
+    <div id="lenovo thinkpad x131e intel celeron 4gb ram" class="hp-images"><!-- 3rd lenovo-->
+        <img src="./pics/lenovo thinkpad x131e intel celeron 4gb ram.jpg" alt="">
+        <h3 class="hp-details">
+            ksh <span>15000</span>
+            <br>
+            lenovo thinkpad x131e
+            <br>
+            intel Celeron
+            <br>
+            4gb Ram
+            <br>
+            320 gb hdd 
+        </h3>
+        </div>
+        <!-- 3rd lenovo ends here-->
+
+        <div id="lenovo thinkpad x131e core i3" class="hp-images"><!-- fourth lenovo-->
+            <img src="./pics/lenovo thinkpad x131e core i3.jpg" alt="">
+            <h3 class="hp-details">
+                ksh <span>17000</span>
+                <br>
+                Lenovo thinkpad x131e
+                <br>
+                core i3
+                <br>
+                4gb Ram
+                <br>
+                320 gb hdd 
+            </h3>
+            </div>
+            <!-- fourth lenovo ends here-->
+
+            <div id="lenovo thinkpad 11e non touch" class="hp-images"><!-- 5th lenovo-->
+                <img src="./pics/lenovo thinkpad 11e non touch.jpg" alt="">
+                <h3 class="hp-details">
+                    ksh <span>16000</span>
+                    <br>
+                    Lenovo thinkpad 11e
+                    <br>
+                  intel celeron,  4gb Ram
+                    <br>
+                    320 gb hdd 
+                </h3>
+                </div>
+                <!-- 5th lenovo ends here-->
+
+                <div id="Lenovo thinkpad x140e AMD" class="hp-images"><!-- 7th lenovo-->
+                    <img src="./pics/lenovo thinkpad x140e AMD.jpg" alt="">
+                    <h3 class="hp-details">
+                        ksh <span>15000</span>
+                        <br>
+                        Lenovo thinkpad X140e AMD
+                        <br>
+                        4gb Ram
+                        <br>
+                        320 gb hdd 
+                    </h3>
+                    </div>
+                    <!-- 7th lenovo ends here-->
+                    <div id="lenovo yoga 12 non touch" class="hp-images"><!-- 8th lenovo-->
+                        <img src="./pics/lenovo yoga 12 non touch.jpg" alt="">
+                        <h3 class="hp-details">
+                            ksh <span>26000</span>
+                            <br>
+
+                            Lenovo yoga 12 <span>nontouch</span>
+                            <br>
+                            core i5
+                            <br>
+                            4gb Ram
+                            <br>
+                            500 gb hdd 
+                        </h3>
+                        </div>
+                        <!-- 8th lenovo ends here-->
+
+
+
+                        <div id="lenovo yoga 11e intel" class="hp-images"><!-- nine lenovo-->
+                            <img src="./pics/lenovo yoga 11e intel.jpg" alt="">
+                            <h3 class="hp-details">
+                                ksh <span>17000</span>
+                                <br>
+                                Lenovo yoga 11e, intel celeron
+                                <br>
+                                4gb Ram
+                                <br>
+                                500 gb hdd 
+                            </h3>
+                            </div>
+                            <!-- nine lenovo ends here-->
+                            <div id="lenovo thinkpad x220" class="hp-images"><!-- 10th lenovo-->
+                                <img src="./pics/lenovo thinkpad x220.jpg" alt="">
+                                <h3 class="hp-details">
+                                    ksh <span>16000</span>
+                                    <br>
+                                    Lenovo thinkpad x220 
+                                    <br>
+                                    core i5
+                                    <br>
+                                    4gb Ram
+                                    <br>
+                                    320 gb hdd 
+                                </h3>
+                                </div>
+                                <!-- 10th lenovo ends here-->
+
+
+                                <div id="lenovo thinkpad x220 core i7" class="hp-images"><!-- 11th lenovo-->
+                                    <img src="./pics/lenovo thinkpad x220 core i7.jpg" alt="">
+                                    <h3 class="hp-details">
+                                        ksh <span>17000</span>
+                                        <br>
+                                        Lenovo thinkpad x220 
+                                        <br>
+                                        core i7
+                                        <br>
+                                        4gb Ram
+                                        <br>
+                                        320 gb hdd 
+                                    </h3>
+                                    </div>
+                                    <!-- 11th lenovo ends here-->
+
+
+                                    <div id="lenovo thinkpad x230 core i5" class="hp-images"><!-- 12th lenovo-->
+                                        <img src="./pics/lenovo thinkpad x230 core i5.jpg" alt="">
+                                        <h3 class="hp-details">
+                                            ksh <span>17000</span>
+                                            <br>
+                                            Lenovo thinkpad x230 
+                                            <br>
+                                            core i5
+                                            <br>
+                                            4gb Ram
+                                            <br>
+                                            320 gb hdd 
+                                        </h3>
+                                        </div>
+                                        <!-- 12th lenovo ends here-->
+
+                                        <div id="lenovo thinkpad x230  core i7" class="hp-images"><!-- 13th  lenovo-->
+                                            <img src="./pics/lenovo thinkpad x230 core i7.jpg" alt="">
+                                            <h3 class="hp-details">
+                                                ksh <span>18000</span>
+                                                <br>
+                                                Lenovo thinkpad x230 
+                                                <br>
+                                                core i7
+                                                <br>
+                                                4gb Ram
+                                                <br>
+                                                320 gb hdd 
+                                            </h3>
+                                            </div>
+                                            <!-- 13 th lenovo ends here-->
+
+                                            <div id="lenovo thinkpad x240 core i5" class="hp-images"><!-- 14th lenovo-->
+                                                <img src="./pics/lenovo x240 core i5.jpg" alt="">
+                                                <h3 class="hp-details">
+                                                    ksh <span>22000</span>
+                                                    <br>
+                                                    Lenovo thinkpad x220 
+                                                    <br>
+                                                    core i5
+                                                    <br>
+                                                    4gb Ram
+                                                    <br>
+                                                    500 gb hdd 
+                                                </h3>
+                                                </div>
+                                                <!-- 14th lenovo ends here-->
+                                                <div id="lenovo  x250 core i5 4gb ram" class="hp-images"><!-- 15th lenovo-->
+                                                    <img src="./pics/lenovo x250 core i5 4gb ram.jpg" alt="">
+                                                    <h3 class="hp-details">
+                                                        ksh <span>23000</span>
+                                                        <br>
+                                                        Lenovo thinkpad x250 
+                                                        <br>
+                                                        core i5
+                                                        <br>
+                                                        4gb Ram
+                                                        <br>
+                                                        500 gb hdd 
+                                                    </h3>
+                                                    </div>
+                                                    <!-- 15th lenovo ends here-->
+
+                                                    <div id="lenovo thinkpad x1 carbon" class="hp-images"><!-- 16th lenovo-->
+                                                        <img src="./pics/lenovo thinkpad x1 carbon.jpg" alt="">
+                                                        <h3 class="hp-details">
+                                                            ksh <span>54000</span>
+                                                            <br>
+                                                            Lenovo thinkpad x1 carbon
+                                                            <br>
+                                                            core i5, 7th generation
+                                                            <br>
+                                                            8gb Ram
+                                                            <br>
+                                                            256 gb ssd
+                                                        </h3>
+                                                        </div>
+                                                        <!-- 16th lenovo ends here-->
+
+                                                        <div id="lenovo  x1 carbon nontouch" class="hp-images"><!-- 17th lenovo-->
+                                                            <img src="./pics/lenovo x1 carbon nontouch.jpg" alt="">
+                                                            <h3 class="hp-details">
+                                                                ksh <span>44000</span>
+                                                                <br>
+                                                                Lenovo thinkpad x1 nontouch
+                                                                <br>
+                                                                core i5,5th generation
+                                                                <br>
+                                                                8gb Ram
+                                                                <br>
+                                                            256 gb ssd
+                                                            </h3>
+                                                            </div>
+                                                            <!-- 17th lenovo ends here-->
+
+                                                            <div id="lenovo yoga x380 core i5" class="hp-images"><!-- 18th lenovo-->
+                                                                <img src="./pics/lenovo yoga x380 core i5.jpg" alt="">
+                                                                <h3 class="hp-details">
+                                                                    ksh <span>44000</span>
+                                                                    <br>
+                                                                    Lenovo yoga x380
+                                                                    <br>
+                                                                    core i5,8th generation
+                                                                    <br>
+                                                                    8gb Ram
+                                                                    <br>
+                                                                    256 gb ssd
+                                                                </h3>
+                                                                </div>
+                                                                <!-- 18th lenovo ends here-->
+                                                                <div id="lenovo yoga 260 6th generation" class="hp-images"><!-- 19th lenovo-->
+                                                                    <img src="./pics/lenovo yoga 260 6th generation.jpg" alt="">
+                                                                    <h3 class="hp-details">
+                                                                        ksh <span>44000</span>
+                                                                        <br>
+                                                                        Lenovo yoga 260
+                                                                        <br>
+                                                                        core i5,6th generation
+                                                                        <br>
+                                                                        8gb Ram
+                                                                        <br>
+                                                                        256 gb ssd
+                                                                    </h3>
+                                                                    </div>
+                                                                    <!-- 19th lenovo ends here-->
+
+                                                                    <div id="lenovo thinkpad t480" class="hp-images"><!-- 20th lenovo-->
+                                                                        <img src="./pics/lenovo thinkpad t480.jpg" alt="">
+                                                                        <h3 class="hp-details">
+                                                                            ksh <span>55000</span>
+                                                                            <br>
+                                                                            Lenovo thinkpad t480
+                                                                            <br>
+                                                                            core i7,8th generation
+                                                                            <br>
+                                                                            8gb Ram
+                                                                            <br>
+                                                                            256gb ssd
+                                                                        </h3>
+                                                                        </div>
+                                                                        <!-- 20th lenovo ends here-->
+
+
+                                                                        <div id="lenovo thinkpad yoga l380" class="hp-images"><!-- 21th lenovo-->
+                                                                            <img src="./pics/lenovo thinkpad yoga l380.jpg" alt="">
+                                                                            <h3 class="hp-details">
+                                                                                ksh <span>54000</span>
+                                                                                <br>
+                                                                                Lenovo thinkpad x220 
+                                                                                <br>
+                                                                                core i5 8th generation
+                                                                                <br>
+                                                                                8gb Ram
+                                                                                <br>
+                                                                                256 gb ssd
+                                                                            </h3>
+                                                                            </div>
+                                                                            <!-- 21 lenovo ends here-->
+
+
+                                                                            <div id="lenovo yoga 460 core i7" class="hp-images"><!-- 22th lenovo-->
+                                                                                <img src="./pics/lenovo yoga 460 core i7.jpg" alt="">
+                                                                                <h3 class="hp-details">
+                                                                                    ksh <span>49000</span>
+                                                                                    <br>
+                                                                                    lenovo yoga 460
+                                                                                    <br>
+                                                                                    core i7,6th generation
+                                                                                    <br>
+                                                                                    8gb Ram
+                                                                                    <br>
+                                                                                    256gb ssd
+                                                                                </h3>
+                                                                                </div>
+                                                                                <!-- 22th lenovo ends here-->
+
+                                                                                <div id="lenovo thinkpad x1 carbon core i5" class="hp-images"><!-- 23th lenovo-->
+                                                                                    <img src="./pics/lenovo thinkpad x1 carbon core i5.jpg" alt="">
+                                                                                    <h3 class="hp-details">
+                                                                                        ksh <span>34000</span>
+                                                                                        <br>
+                                                                                        Lenovo thinkpad x1 carbon
+                                                                                        <br>
+                                                                                        core i5,3rd generation
+                                                                                        <br>
+                                                                                        8gb Ram
+                                                                                        <br>
+                                                                                        256 gb ssd
+                                                                                    </h3>
+                                                                                    </div>
+                                                                                    <!-- 23th lenovo ends here-->
+ 
+
+                                                                                    <div id="lenovo x1 carbon" class="hp-images"><!-- 24th lenovo-->
+                                                                                        <img src="./pics/lenovo x1 carbon.jpg" alt="">
+                                                                                        <h3 class="hp-details">
+                                                                                            ksh <span>40000</span>
+                                                                                            <br>
+                                                                                            Lenovo x1 carbon
+                                                                                            <br>
+                                                                                            core i5,4th generation
+                                                                                            <span>touchscreen</span>
+                                                                                            <br>
+                                                                                            8gb Ram
+                                                                                            <br>
+                                                                                            256 gb ssd
+                                                                                        </h3>
+                                                                                        </div>
+                                                                                        <!-- 24th lenovo ends here-->  
+                                                                                        
+                                                                                        <div id="lenovo thinkpad t460s" class="hp-images"><!-- 25th lenovo-->
+                                                                                            <img src="./pics/lenovo thinkpad t460s.jpg" alt="">
+                                                                                            <h3 class="hp-details">
+                                                                                                ksh <span>39000</span>
+                                                                                                <br>
+                                                                                                Lenovo thinkpad t460s 
+                                                                                                <br>
+                                                                                                core i5,6th generation
+                                                                                                <br>
+                                                                                                8gb Ram
+                                                                                                <br>
+                                                                                                256gb ssd
+                                                                                            </h3>
+                                                                                            </div>
+                                                                                            <!-- 25th lenovo ends here-->
+
+                                                                                            <div id="lenovo  x1 carbon core i7" class="hp-images"><!-- 26th lenovo-->
+                                                                                                <img src="./pics/lenovo x1 carbon core i7.jpg" alt="">
+                                                                                                <h3 class="hp-details">
+                                                                                                    ksh <span>36000</span>
+                                                                                                    <br>
+                                                                                                    Lenovo thinkpad x1 carbon
+                                                                                                    <br>
+                                                                                                    core i7 3rd generation
+                                                                                                    <br>
+                                                                                                    8gb Ram
+                                                                                                    <br>
+                                                                                                    180 gb ssd
+                                                                                                </h3>
+                                                                                                </div>
+                                                                                                <!-- 26th lenovo ends here-->
+
+                                                                                                <div id="lenovo thinkpad x1 carbon 6th gen" class="hp-images"><!-- 27th lenovo-->
+                                                                                                    <img src="./pics/lenovo thinkpad x1 carbon 6th gen.jpg" alt="">
+                                                                                                    <h3 class="hp-details">
+                                                                                                        ksh <span>54000</span>
+                                                                                                        <br>
+                                                                                                        Lenovo thinkpad x220 
+                                                                                                        <br>
+                                                                                                        core i7, 6th generation
+                                                                                                        <br>
+                                                                                                        8gb Ram
+                                                                                                        <br>
+                                                                                                        256 gb ssd
+                                                                                                    </h3>
+                                                                                                    </div>
+                                                                                                    <!-- 27th lenovo ends here-->
+                                                                                                    <div id="lenovo thinkpad x1 carbon 5th gen" class="hp-images"><!-- 28th lenovo-->
+                                                                                                        <img src="./pics/lenovo thinkpad x1 carbon 5th gen.jpg" alt="">
+                                                                                                        <h3 class="hp-details">
+                                                                                                            ksh <span>49000</span>
+                                                                                                            <br>
+                                                                                                            Lenovo thinkpad x1 carbon
+                                                                                                            <br>
+                                                                                                            core i7,5th generation
+                                                                                                            <br>
+
+                                                                                                            <span>non touch</span>
+
+                                                                                                            <br>
+                                                                                                            8gb Ram
+                                                                                                            <br>
+                                                                                                            256 gb ssd
+                                                                                                        </h3>
+                                                                                                        </div>
+                                                                                                        <!-- 28th lenovo ends here-->
+
+                                                                                                        <div id="lenovo thinkpad L570" class="hp-images"><!-- 29th lenovo-->
+                                                                                                            <img src="./pics/lenovo thinkpad l570.jpg" alt="">
+                                                                                                            <h3 class="hp-details">
+                                                                                                                ksh <span>65000</span>
+                                                                                                                <br>
+                                                                                                                Lenovo thinkpad L570
+                                                                                                                <br>
+                                                                                                                core i7
+                                                                                                                <span>15.6</span>
+                                                                                                                7th generation
+                                                                                                                <br>
+                                                                                                                8gb Ram
+                                                                                                                <br>
+                                                                                                            256 gb ssd
+                                                                                                            </h3>
+                                                                                                            </div>
+                                                                                                            <!-- 10th lenovo ends here-->
+
+
+
+                                                                                                          
+
+
+
+                                                                                                            <h3 id="message">oops! no items in your order</h3>
+        
+                                                                                                            <div id="order-table" class="order-table">
+                                                                                                               
+                                                                                                            </div>
+                                                                                                            
+
+                                                                                                           
+                                                                                                           
+
+                                                                                                            <div class="footer-container">
+                                                                                                                <div class="footer-heading footer-1">
+                                                                                                                    <h2>About Us</h2>
+                                                                                                                <p> we are located at Rahimtulla Trust Building
+                                                                                                                    <br>
+                                                                                                                    |moi avenue| Nairobi CBD 
+                                                                                                                    <br>
+                                                                                                                    we deliver country wide
+                                                                                                                </p>
+                                                                                                                
+                                                                            
+                                                                                                
+                                                                                                                </div>
+
+                                                                                                                <div class="footer-heading footer-2">
+                                                                                                                <h2>Contact Us</h2>
+                                                                                                                <a href="https://wa.me/+254723363833">Support</a>
+                                                                                                                <a href="https://wa.me/+254723363833">contact</a>
+                                                                                                                
+                                                                                                                </div>
+
+
+
+
+                                                                                                                <div class="footer-heading footer-3">
+                                                                                                                    <h2>Social Media</h2>
+                                                                                                                    
+                                                                                                                    <a href="https://www.facebook.com/laptpske/">Facebook</a>
+                                                                                                                    
+                                                                                                                    <a href="https://wa.me/+254723363833">Whatsapp</a>
+                                                                                                                    </div>
+                                                                                                                    
+                                                                                                                    
+
+
+
+
+                                                                                                            </div>                                                                                           
+
+    </div><!-- content section for lenovo ends here-->
+   
+    
+   
+
+</div><!-- container hp for dell  and lenovo ends here-->
+
+<!-- container hp for lenovo starts-->
+
+
+       
+
+
+       
+
+       
+
+        
+
+
+
+
+
+
+    
+    <script src="main.js"></script>
+   
+</body>
+</html>

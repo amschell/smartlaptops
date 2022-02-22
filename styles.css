@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+.navbar{
+
+display: flex;
+    justify-content: space-between;
+
+    height: 150px;
+    width: 100vw;
+    background:#389;
+    
+}
+.navbar-nav{
+    width: 70vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+    display: inline;
+    color:dodgerblue;
+    background:white;
+    padding: 5px;
+
+}
+.cart-count{
+    display: inline;
+    position: relative;
+    left:60px;
+    color:white;
+
+    font-size: large;
+}
+.product-container{
+    display: flex;
+
+flex-direction: column;
+    height: 100%;
+width: 100vw;
+    
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+.product-header{
+    display: flex;
+    
+    gap: 45px;
+    margin: 10px;
+    position: relative;
+    
+    background-color: dodgerblue;
+    color: white;
+    flex-wrap: wrap;
+
+    
+    
+}
+
+
+.products{
+    
+   display: flex;
+   height: 70%;
+   width: 100%;
+   position: relative;
+   left: 0;
+   right: 20000px;
+   justify-content: space-evenly;
+
+
+}
+.products img{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+.price{
+    
+    position: relative;
+    bottom: 50px;
+    left: 150px;
+}
+.quant{
+
+position: relative;
+bottom: 70px;
+left: 250px;
+font-size: large;
+}
+.tota{
+    color: red;
+    font-weight: bold;
+    
+    position: relative;
+    bottom: 90px;
+    left: 320px;
+}
+@media screen and (max-width:1400px ) {
+
+    
+    .products{
+    
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 10px;
+        min-height: 100vh;
+        flex-direction: column;
+        
+        position: relative;
+        
+        top: 50px;
+        right: 200px;
+        
+        width: 700px;
+        
+    
+    
+    }
+    
+    
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Anton&family=Bebas+Neue&family=Luckiest+Guy&family=Permanent+Marker&family=Roboto:wght@100&family=Syne+Tactile&display=swap');
+body{
+    background: #242038;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container{
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header{
+    background: #000 url(./pexels-felix-mittermeier-956999.jpg) top center /cover;
+    text-align: center;
+    padding: 150px 0;
+    color: #fff;
+    border-bottom: 2px solid #89fcf3;
+    box-shadow: 0 0 10px #89fcf3;
+
+}
+header h1{
+    color: #89fcf3;
+    font-family: 'Permanent Marker', cursive;
+    
+    line-height: 0.8em;
+    
+    
+    padding-bottom: 60px;
+
+}
+header h1 span{
+    display: block;
+    text-align: right;
+}
+header p{
+    color:#cccdcf;
+    font-size: 18px;
+    max-width: 500px;
+}
+form{
+    background: #151515;
+    border-radius: 12px;
+    padding: 50px;
+    margin: -40px 0 150px;
+    font-size: 28px;
+    position: relative;
+    box-shadow: 0 40px 50px -50px #89fcf3;
+
+}
+form input{
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+    border: none;
+    height: 30px;
+    padding: 15px;
+    background: #242D38;
+    color: #fff;
+    transition: 0.5s;
+    margin-bottom: 10px;
+
+}
+form input:focus{
+    outline: none;
+    box-shadow: 0px 10px 30px -20px #89fcf3;
+    filter:contrast(85%);
+}
+
+form .subscribe{
+    max-width: 300px;
+    height: auto;
+    background: #151515;
+    border-radius: 45px;
+    border: #89fcf3;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0 auto -80px;
+}
+form .subscribe:hover{
+    background: #89fcf3;
+    color:#151515;
+    cursor: pointer;
+}
