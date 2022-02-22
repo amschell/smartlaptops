@@ -304,7 +304,7 @@ span{
     top: 275px;
     margin-right: 5px;
     
-    background-color: #fff;
+    background-color: #242038;
     padding: 2rem 0 4rem 0;
     display: flex;
     justify-content: center;
@@ -320,9 +320,10 @@ span{
 }
 .footer-heading h2{
     margin-bottom: 0;
+    color:#fff;
 }
 .footer-heading a{
-    color: #000;
+    color: #fff;
     text-decoration: none;
     margin-bottom: 0.5rem;
 }
