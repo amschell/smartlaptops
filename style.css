@@ -319,7 +319,7 @@ span{
     margin-right: 4rem;
 }
 .footer-heading h2{
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 .footer-heading a{
     color: #000;
