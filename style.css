@@ -297,8 +297,8 @@ span{
     background-color: #000;
 }
 .footer-container{
-    border-top: lightgray 2px solid;
-    height: 455px;
+    
+    height: 300px;
     width: 200vw;
     position: relative;
     top: 275px;
