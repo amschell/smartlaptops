@@ -1,0 +1,5 @@
+this is  a simple website for a small computer selling shop which i created using html,css and a bit of vannila js.
+it has feutures like add to cart where the information about the order is sent to the sellers email adress.
+it also has the "subscribe to newsletter" feuture where the subscriber's email adresses are saved to the sellers mailchimp account.
+the latter feuture helps the seller advertise their products by sending advert emails and information about the latest products to the subscribed audience.
+
